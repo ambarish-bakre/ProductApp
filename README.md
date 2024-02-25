@@ -4,7 +4,7 @@
 
 For building and running the application you need:
 
-- [node 20](https://nodejs.org/en/download/current)
+- [Node 20](https://nodejs.org/en/download/current)
 - [React 18](https://react.dev/)
 - [Bootstrap 5](https://getbootstrap.com/)
 
