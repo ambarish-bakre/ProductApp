@@ -1,30 +1,26 @@
-# React + TypeScript + Vite
+# Product App Coding Exercise : Frontend
+- Built in React
+## Requirements
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+For building and running the application you need:
 
-Currently, two official plugins are available:
+- [node 20](https://nodejs.org/en/download/current)
+- [React 18](https://react.dev/)
+- [Bootstrap 5](https://getbootstrap.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Running the application locally
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
+Ensure that you have Node.js installed in your system and available on path.
+Run the following command to install dependencies:
+```shell
+npm install
+```
+After all packages are installed, use the below command to start the frontend server:
+```shell
+npm run dev
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+By default the app will run on the following URL: http://localhost:5173/
+## Copyright
+
+Released under the Apache License 2.0. See the [LICENSE](https://github.com/codecentric/springboot-sample-app/blob/master/LICENSE) file.
